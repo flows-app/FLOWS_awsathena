@@ -1,0 +1,8 @@
+{
+  "database":"db1",
+  "query":"select current_timestamp",
+  "account":{
+    "accessKey":"abc123",
+    "secretKey":"abc123"
+  }
+}

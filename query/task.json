@@ -1,0 +1,29 @@
+{
+    "id": "FLOWS/awsathena/query",
+    "lambda": "lambda-arn",
+    "role": "iam-arn",
+    "input": {
+        "examples": {
+            "sampleobject": {
+                "database":"db1",
+                "query":"select current_timestamp",
+                "account":{
+                  "accessKey":"abc123",
+                  "secretKey":"abc123"
+                }
+            }
+
+        }
+    },
+    "output": {
+        "examples": {
+            "result": {
+                "_col0": "2019-06-11 14:57:24.966 UTC"
+            }
+        }
+    },
+    "type": "task",
+    "description": "queries an AWS Athena table",
+    "icon": "https://flows.app/favicon.png",
+    "billing": "standard"
+}
