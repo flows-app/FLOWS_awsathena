@@ -1,6 +1,7 @@
 {
   "database":"db1",
   "query":"select current_timestamp",
+  "outputlocation":"s3://bucket/",
   "account":{
     "accessKey":"abc123",
     "secretKey":"abc123"
